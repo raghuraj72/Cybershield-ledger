@@ -1,2 +1,14 @@
+<<<<<<< HEAD
 .rocketride/
 .env
+=======
+﻿venv/
+env/
+__pycache__/
+*.pyc
+node_modules/
+.vscode/
+
+blockchain/artifacts/
+blockchain/cache/
+>>>>>>> origin/main

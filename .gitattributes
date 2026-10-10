@@ -1,0 +1,11 @@
+﻿# Force all PowerShell scripts to be ignored by language stats
+*.ps1 linguist-detectable=false
+*.psm1 linguist-detectable=false
+agents/* linguist-detectable=false
+
+# Explicitly assign Python to backend and tests
+*.py linguist-detectable=true
+*.py linguist-language=Python
+
+# Ensure HTML/JS don't outweigh Python
+frontend/* linguist-detectable=false
